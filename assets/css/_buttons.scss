@@ -1,0 +1,69 @@
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+header {
+  .navbar {
+    .btnDownload {
+      padding: 10px 20px;
+      background-color: $secondary;
+      color: $white;
+      border-radius: 25px;
+      font-family: $font-sansb !important;
+      &:hover {
+        background-color: rgba($color: $white, $alpha: 0.1);
+      }
+    }
+    .langButtons {
+      span {
+        cursor: pointer;
+        background-color: #f0f0f0;
+        padding: 5px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        &:hover {
+          background-color: $secondary;
+        }
+      }
+    }
+    .pt {
+      border-right: 1px solid white;
+      padding-right: 5px;
+    }
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+.btnDownload {
+  background-color: $secondary;
+  color: $white;
+  padding: 5px 25px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  &:hover {
+    background-color: $primary;
+  }
+}
+
+@media (max-width: 768px) {
+}

@@ -1,0 +1,38 @@
+.bg {
+  &--white {
+    background-color: $white;
+  }
+  &--black {
+    background-color: $black;
+  }
+  &--primary {
+    background-color: $primary;
+  }
+  &--secondary {
+    background-color: $secondary;
+  }
+  &--tertiary {
+    background-color: $tertiary;
+  }
+  &--header {
+    background: url(../images/bg-header.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh
+  }
+  &--destaques {
+    background: url(../images/bg-destaques.png) center center no-repeat;
+    background-size: cover;
+  }
+  &--destaques2 {
+    background: url(../images/bg-destaques-2.png) center center no-repeat;
+    background-size: cover;
+  }
+  &--footer {
+    background: url(../images/bg-footer.png) top center no-repeat;
+    background-size: cover;
+    height: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+}

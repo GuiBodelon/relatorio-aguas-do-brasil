@@ -1,0 +1,40 @@
+<button class="btnBackToTop" href="#" id="btnBackToTop" onclick="scrollToTop()">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+.btnBackToTop {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  bottom: 25px;
+  right: 25px;
+  background-color: $darkblue;
+  color: $white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  i {
+    font-size: 25px;
+  }
+}
+
+window.addEventListener("scroll", function() {
+  var btnVoltarAoTopo = document.getElementById("btnBackToTop");
+  if (window.pageYOffset > 100) {
+    btnVoltarAoTopo.style.display = "flex";
+  } else {
+    btnVoltarAoTopo.style.display = "none";
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+};

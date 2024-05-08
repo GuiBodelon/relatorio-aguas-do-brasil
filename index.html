@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Relatório de Sustentabilidade - 2023</title>
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" type="image/x-icon" href="assets/images/ctg-favicon.png" />
+    <!--Fallback Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontawesome Icons-->
+    <link href="assets/fonts-6/css/all.css" rel="stylesheet" />
+    <link href="assets/fonts-6/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/fonts-6/css/brands.css" rel="stylesheet" />
+    <link href="assets/fonts-6/css/solid.css" rel="stylesheet" />
+    <!--JQuery v3.2.1-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Internal scripts-->
+    <script src="assets/js/script.js" type="text/javascript"></script>
+    <!--Internal styles-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Bootstrap v5.3-->
+    <link href="assets/bootstrap5.3/css/bootstrap.min.css" rel="stylesheet" />
+    <!--AOS: Animate Lib-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top px-5 bg--white">
+        <div class="container-fluid">
+          <a class="navbar-brand text--white" href="#" target="_blank">
+            <img src="assets/images/logo.png" class="d-inline-block" width="" />
+          </a>
+          <div
+            class="d-none d-md-inline-block text--primary text-uppercase"
+            id="titleHeader"
+          ></div>
+          <div class="d-flex">
+            <div class="d-flex align-items-center buttons">
+              <div class="langButtons me-5 text--primary text--sansr">
+                <span id="change-language-pt" class="pt">PT</span>
+                <span id="change-language-en">EN</span>
+              </div>
+            </div>
+            <button class="d-md-flex d-none btnDownload me-4">
+              Download PDF
+            </button>
+          </div>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <div class="menu__box">
+              <ul class="menu__items">
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#1"
+                    id=""
+                  >
+                    <span id="menuLink1"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink2"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink3"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink4"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink5"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink6"></span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="menu__item scroll-link"
+                    onclick="closeMenu()"
+                    href="#"
+                    id=""
+                  >
+                    <span id="menuLink7"></span>
+                  </a>
+                </li>
+                <li>
+                  <button class="btnDownload">Download PDF</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row headerContent bg--header d-flex align-items-start">
+          <div class="col" style="padding: 10% 0 0 7%">
+            <div
+              class="fs--64 text-uppercase text--white text--sansl"
+              id="headerTitle"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="1" style="position: relative; top: -60px"></div>
+    <section class="sectionApresentacao mt-5" style="padding: 0 7%">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text--primary">Apresentação</h1>
+            <p>
+              O acesso à água tratada e ao saneamento básico é um direito humano
+              universal e essencial à dignidade de todas as pessoas. Prestar
+              esse serviço com excelência, pautado na responsabilidade
+              socioambiental, faz parte da missão do Grupo Águas do Brasil.
+            </p>
+          </div>
+          <div class="col-12">
+            <div class="videoPlaceholder"></div>
+          </div>
+          <div class="col-12 mt-4">
+            <p>
+              A seguir, conheça os destaques da nossa atuação guiada por valores
+              ASG (ambientais, sociais e de governança) apresentados em nosso
+              terceiro Relatório de Sustentabilidade.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionMensagem mt-5" style="padding: 0 7%">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mb-5">
+            <h1 class="text--primary">Mensagem da<br />Administração</h1>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start">
+            <img
+              src="assets/images/mensagem-img-1.png"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="ms-0 ms-md-4 mt-4 mt-md-0">
+              <p>
+                “Um importante pilar da nossa atuação é a inovação. Para nós,
+                inovar não é apenas utilizar ou desenvolver tecnologias, mas
+                criar ideias que possam ser colocadas em prática, promovendo
+                vantagens competitivas e sustentáveis.”
+              </p>
+              <b>João Pedro Backheuser</b>
+              <p>
+                Presidente do Conselho de Administração do Grupo Águas do
+                Brasil.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start">
+            <img
+              src="assets/images/mensagem-img-2.png"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="ms-0 ms-md-4 mt-4 mt-md-0">
+              <p>
+                “Somos um Grupo 100% nacional, cujo crescimento está alicerçado
+                em bases seguras e em princípios de sustentabilidade. Está na
+                nossa essência abraçar desafios, confiantes de nossa capacidade
+                de superá-los com excelência, coerência e transparência.”
+              </p>
+              <b>Cláudio Bechara Abduche</b>
+              <p>Diretor-presidente do Grupo Águas do Brasil.</p>
+            </div>
+          </div>
+          <div class="col-12 mt-5 text-center d-flex flex-column">
+            <b class="fs--20 mb-3"
+              >Para ler a mensagem da administração na íntegra, acesse o nosso
+              Relatório de Sustentabilidade 2023.</b
+            >
+            <a href="#" target="_blank">
+              <button class="btnDownload">Download</button>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 mt-5 pe-5">
+            <h1 class="text--primary">Perfil</h1>
+            <p>
+              O Grupo Águas do Brasil, com sede em Niterói, no Rio de Janeiro,
+              atua no segmento há 25 anos e responde por um volume considerável
+              do setor privado de serviços de abastecimento de água, coleta e
+              tratamento de esgoto no país. Nossas operações abrangem mais de 5
+              milhões de pessoas, por meio do trabalho de xx mil colaboradores e
+              o apoio de uma rede com mais de 6 mil fornecedores de materiais e
+              equipamentos.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 mt-5">
+            <img
+              src="assets/images/mensagem-img-3.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDestaques mt-5 bg--destaques">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h1 class="text--primary">Destaques</h1>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Concessionárias</div>
+              <div class="destaqueCardBody">
+                15 concessionárias e<br />2 unidades industriais
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Municípios</div>
+              <div class="destaqueCardBody">33</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">População atendida</div>
+              <div class="destaqueCardBody">5 milhões</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Tratamento de água</div>
+              <div class="destaqueCardBody">105 estações</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">REDES DE ÁGUA</div>
+              <div class="destaqueCardBody">135 km</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Ligações ativas de água</div>
+              <div class="destaqueCardBody">1.100.597</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Tratamento de esgoto</div>
+              <div class="destaqueCardBody">240 estações</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">redes de esgoto</div>
+              <div class="destaqueCardBody">88 km</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4">
+            <div class="destaqueCard">
+              <div class="destaqueCardTitle">Ligações ativas de esgotos</div>
+              <div class="destaqueCardBody">865.217</div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12 my-5">
+            <h1 class="text--primary">
+              <span class="text--secondary">Nossos</span><br />Números
+            </h1>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center">
+            <img src="assets/images/numeros-icon-1.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ 60 milhões</h2>
+              <p>em investimentos na<br />Rio+ Saneamento</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4 mt-md-0">
+            <img src="assets/images/numeros-icon-2.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ 2,1 bilhões</h2>
+              <p>de receita bruta</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4 mt-md-0">
+            <img src="assets/images/numeros-icon-3.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">38%</h2>
+              <p>dos cargos de liderança são ocupados por mulheres</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-4.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ XX</h2>
+              <p>em investimentos<br />de capital</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-5.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">XX</h2>
+              <p>novas contratações<br />em 2023</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-6.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ 382 milhões</h2>
+              <p>investidos em nossas<br />concessionárias</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-7.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ 2,5 bilhões</h2>
+              <p>em debêntures azuis emitidas<br />pela Rio+ Saneamento</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-7.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">XX</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 d-flex align-items-center mt-4">
+            <img src="assets/images/numeros-icon-7.png" alt="" />
+            <div class="ms-4">
+              <h2 class="text--primary">R$ XX</h2>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionCompromisso">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h1 class="text--primary">
+              <span class="text--secondary">Compromisso</span><br />com os ODS
+            </h1>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start"
+          >
+            <img src="assets/images/ods-icon-1.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Saúde e Bem-estar</b><br />
+                O abastecimento de água potável e o esgotamento sanitário
+                contribuem diretamente para a melhoria da saúde pública,
+                especialmente em relação à prevenção de doenças e epidemias. Em
+                2023, investimos mais de R$ 382 milhões em novas obras e
+                melhorias operacionais de nossos sistemas, aumentando em xx a
+                cobertura de saneamento nas regiões atendidas pelo Grupo Águas
+                do Brasil.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start"
+          >
+            <img src="assets/images/ods-icon-2.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Igualdade de Gênero</b><br />
+                Os esforços empreendidos para fortalecer a presença feminina no
+                Grupo se refletem em números que são destaque no setor, em
+                relação a outras companhias de infraestrutura. Somente em 2023,
+                foram admitidas 106 mulheres, das quais 21 assumiram posições
+                operacionais, impulsionando um ambiente cada vez mais diverso e
+                inclusivo. Alcançamos também o percentual de 38% de mulheres em
+                cargos de liderança.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-3.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Água Potável e Saneamento</b><br />
+                Em 2023, xx de nossas xx concessionárias alcançaram uma
+                cobertura de abastecimento de água próxima de 100%. As cidades
+                de Campos dos Goytacazes, Niterói, Nova Friburgo, Jaú,
+                Votorantim e Pará de Minas, atendidas pelo Grupo, ultrapassaram
+                os percentuais de coberturas de esgoto estimados para 2033.
+                Petrópolis está próximo de atingir essa marca.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-4.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Trabalho Decente e Crescimento Econômico</b><br />
+                Em 2023, consolidamos nossa Política de Direitos Humanos e o
+                nosso Manual de Diversidade e Inclusão, lançados em 2022. Mais
+                de xx colaboradores foram impactados por ações de comunicação e
+                treinamento, promovendo o alinhamento de todo o Grupo em temas
+                prioritários da nossa agenda ASG.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-5.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Cidades e Comunidades Sustentáveis</b><br />
+                O Projeto Ybirá, conduzido pela concessionária Águas de
+                Juturnaíba, contribui para a melhoria da qualidade do ar,
+                aumento da vazão de mananciais hídricos e proteção da
+                biodiversidade, por meio do reflorestamento na Bacia
+                Hidrográfica do Rio São João. A preservação trouxe a melhora da
+                balneabilidade e a recuperação da flora e fauna da região, o
+                retorno da pesca e dos esportes náuticos, bem como a presença de
+                espécies sensíveis a variações bruscas na qualidade da água,
+                como os cavalos-marinhos.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-6.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Consumo e Produção Responsáveis</b><br />
+                Em uma lógica de circularidade, implementamos uma gestão
+                sustentável do lodo gerado em nossas operações de tratamento de
+                esgoto e de água. Grande parte do lodo residual passa pelo
+                processo de compostagem e é transformado em adubo orgânico. As
+                concessionárias Águas de Agulhas Negras, Águas de Juturnaíba,
+                Zona Oeste Mais e Rio+Saneamento atingiram a marca de 100% de
+                compostagem. O lodo é utilizado em diversos outros produtos,
+                como fertilizantes e tijolos. No total, em 2023, foram
+                encaminhadas xx toneladas do resíduo para a compostagem.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-7.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Ação Contra a Mudança Global do Clima</b><br />
+                As questões cruciais sobre a gestão do clima para os negócios do
+                Grupo estão reunidas no Plano Climático. O documento abrange os
+                Inventários de Gases de Efeito Estufa (GEE), a avaliação da
+                sensibilidade climática baseada nas diretrizes da Task Force on
+                Climate – Related Financial Disclosures (TCFD), a avaliação de
+                riscos climáticos físicos, com as respectivas alternativas de
+                mitigação dos impactos das operações e medidas adaptativas,
+                indicadores e metas.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex flex-column flex-md-row align-items-start mt-4"
+          >
+            <img src="assets/images/ods-icon-8.png" alt="" class="img-fluid" />
+            <div class="ms-0 ms-md-4 mt-3 mt-md-0">
+              <p>
+                <b>Paz, Justiça e Instituições Eficazes</b><br />
+                O Grupo busca manter o diálogo e a parceria com instituições de
+                referência do setor de saneamento e de governança corporativa.
+                Nos associamos ao Conselho Empresarial Brasileiro para o
+                Desenvolvimento Sustentável (CEBDS) e integramos o Instituto
+                Brasileiro de Governança Corporativa (IBGC) e o Instituto Ethos,
+                fomentando boas práticas de governança baseadas nos princípios
+                da transparência e ética dos negócios.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDestaques2 bg--destaques2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 mb-4">
+            <h1 class="text--primary">
+              <span class="text--secondary">Destaques</span><br />ASG
+            </h1>
+          </div>
+          <div class="col-12 col-md-4">
+            <div
+              class="d-flex flex-column justify-content-between align-items-center text-center bg--white"
+              style="border-radius: 10px; height: 450px; padding: 10% 5% 20% 5%"
+            >
+              <img
+                src="assets/images/destaque-asg-icon1.png"
+                alt=""
+                class="img-fluid"
+              />
+              <h2 class="text--primary">Ambiental</h2>
+              <p>
+                Lançada em julho de 2023, nossa Política de Eficiência
+                Energética direciona as operações do Grupo para soluções
+                energeticamente ainda mais eficientes.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <div
+              class="d-flex flex-column justify-content-between align-items-center text-center bg--white"
+              style="border-radius: 10px; height: 450px; padding: 10% 5% 20% 5%"
+            >
+              <img
+                src="assets/images/destaque-asg-icon2.png"
+                alt=""
+                class="img-fluid"
+              />
+              <h2 class="text--primary">Social</h2>
+              <p>
+                Com nota 83, conquistamos pelo terceiro ano consecutivo, o selo
+                Great Place to Work e somos certificados como uma das melhores
+                empresas para se trabalhar no Brasil.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0">
+            <div
+              class="d-flex flex-column justify-content-between align-items-center text-center bg--white"
+              style="border-radius: 10px; height: 450px; padding: 10% 5% 20% 5%"
+            >
+              <img
+                src="assets/images/destaque-asg-icon3.png"
+                alt=""
+                class="img-fluid"
+              />
+              <h2 class="text--primary">Governança</h2>
+              <p>
+                O Grupo Águas do Brasil foi a primeira empresa da América Latina
+                a obter a certificação ABNT NBR ISO 37000, de Governança de
+                Organizações.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text--primary">Certificações</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionGri">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1 class="text--primary">
+              <span class="text--secondary">GRI</span><br />SASB
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. In vitae nulla ut risus eu
+              lacus. Sit odio convallis massa vitae. Ipsum odio dignissim felis
+              eu orci at. Enim diam faucibus diam vivamus lectus quam erat amet
+              bibendum. Leo feugiat adipiscing aliquet lobortis. Scelerisque id
+              tellus ultrices magna lobortis nisl. Sit fermentum vel velit
+              vulputate. Ultrices aliquam mattis dictum tincidunt. Nec
+              ullamcorper aliquet sit neque lectus sit nibh risus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. In vitae nulla ut risus eu
+              lacus. Sit odio convallis massa vitae. Ipsum odio dignissim felis
+              eu orci at. Enim diam faucibus diam vivamus lectus quam erat amet
+              bibendum. Leo feugiat adipiscing aliquet lobortis. Scelerisque id
+              tellus ultrices magna lobortis nisl. Sit fermentum vel velit
+              vulputate. Ultrices aliquam mattis dictum tincidunt. Nec
+              ullamcorper aliquet sit neque lectus sit nibh risus.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-end">
+            <img src="assets/images/gri-sasb.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid">
+      <div class="row bg--footer">
+        <div class="col-12 text-center d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column">
+            <b class="text--primary fs--24 mb-3">Acesse na íntegra o Relatório de Sustentabilidade 2023</b>
+            <a href="#" target="_blank">
+              <button class="btnDownload">Download</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="padding: 0 7%;height: 110px;">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <img src="assets/images/logo.png" alt="" class="img-fluid">
+          <div class="d-flex gap-2">
+            <a
+              href="#"
+              target="_blank"
+              class="socialIcon"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="#"
+              target="_blank"
+              class="socialIcon"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="#"
+              target="_blank"
+              class="socialIcon"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="#"
+              target="_blank"
+              class="socialIcon"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--i18n-->
+    <script src="https://cdn.jsdelivr.net/npm/i18next@22.4.15/dist/umd/i18next.min.js"></script>
+    <script src="assets/js/i18n.js" type="module"></script>
+    <!--Bootstrap v5.3-->
+    <script src="assets/bootstrap5.3/js/bootstrap.bundle.min.js"></script>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <script src="./assets/js/resources.js"></script>
+    <script>
+      (function (d) {
+        var s = d.createElement("script");
+        /* uncomment the following line to override default position*/
+        s.setAttribute("data-position", 3);
+        /* uncomment the following line to override default size (values: small, large)*/
+        /* s.setAttribute("data-size", "large");*/
+        /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+        s.setAttribute("data-language", "pt");
+        /* uncomment the following line to override color set via widget (e.g., #053f67)*/
+        /* s.setAttribute("data-color", "#2d68ff");*/
+        /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+        /* s.setAttribute("data-type", "1");*/
+        /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
+        /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
+        /* uncomment the following line to override support on mobile devices*/
+        /* s.setAttribute("data-mobile", true);*/
+        /* uncomment the following line to set custom trigger action for accessibility menu*/
+        /* s.setAttribute("data-trigger", "triggerId")*/
+        s.setAttribute("data-account", "oSrNl8Iy2B");
+        s.setAttribute("src", "https://cdn.userway.org/widget.js");
+        (d.body || d.head).appendChild(s);
+      })(document);
+    </script>
+    <noscript>
+      Please ensure Javascript is enabled for purposes of
+      <a href="https://userway.org">website accessibility</a>
+    </noscript>
+  </body>
+</html>
